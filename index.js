@@ -15,7 +15,7 @@ function reduce(val, cd, starting){
 let v = (!!starting) ? starting : val[0]
 let i = (!!starting) ? 0 : 1
 
-for (let i = 0; i < val.length; i++) {
+for (; i < val.length; i++) {
   v = cd(val[i], v)
 }
 
