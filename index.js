@@ -8,7 +8,7 @@ for (let i = 0; i < val.length; i++) {
   v.push(cd(theElement))
 }
 
-return r;
+return v;
 }
 
 function reduce(val, cd, starting){
